@@ -1,0 +1,17 @@
+{
+  "name": "photon",
+  "version": "0.0.2",
+  "description": "Electron and animation experiment",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "mason",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.0.3"
+  }
+}
