@@ -1,7 +1,7 @@
 {
-  "name": "photon",
+  "name": "candle",
   "version": "0.0.2",
-  "description": "Electron and animation experiment",
+  "description": "Description",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -13,5 +13,18 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^6.0.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "npm-css": "^0.2.3",
+    "popper.js": "^1.15.0",
+    "request": "^2.88.0",
+    "selenium-webdriver": "^4.0.0-alpha.4",
+    "shards-ui": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maao666/Photon.git"
   }
 }

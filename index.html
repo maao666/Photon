@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/shards-ui/dist/css/shards.min.css">
+</head>
+
+<body>
+    <!-- Optional JavaScript -->
+    <!-- JavaScript Dependencies: jQuery, Popper.js, Bootstrap JS, Shards JS -->
+    <script>
+        window.$ = window.jQuery = require('jquery'); // not sure if you need this at all
+        window.Bootstrap = require('bootstrap');
+        var crawler = require('./crawler');
+    </script>
+
+    <script src="node_modules/shards-ui/dist/js/shards.min.js"></script>
+
+    <h1>BCY Crawler!</h1>
+
+
+
+</body>
+
 </html>
